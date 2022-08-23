@@ -35,18 +35,17 @@ flex-direction: column
 .btn{
     cursor: pointer;
     padding-top: 6px;
-    padding-bottom: 6px;
-    padding-right: 12px;
-    padding-left: 12px;
+    padding: 6px 12px;
     border-radius: 3px;
     line-height: 1.4;
+    border: 0;
 }
 .btn-default {
-    color: white;
+    color: #ffffff;
     background-color: #faa541;
 }
 .btn-primary{
-    color: white;
+    color: #ffffff;
     background-color: #364147;
 }
 .form-control{

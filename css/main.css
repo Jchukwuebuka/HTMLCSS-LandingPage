@@ -84,27 +84,27 @@ flex-direction: column
     height: auto;
 }
 .search-box{
-    height: 30px;
     width: 330;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-right: 12px;
-    padding-left: 12px;
+    height: 30px;
+    padding: 6px 12px;
     border: 1px border #a0a0a0;
 }
 .search-button {
     background-color: #a0a0a0;
     color: #ffffff;
-    height: 30px;
     width:100;
+    height: 30px;
     padding: 0;
+    border: 0;
 }
 .nav-list{
     padding-left: 0;
     width: 575px;
     margin-top: 10px;
+}
+.nav-list li a{
     font-size: 16px;
-    font-style: uppercase;
+    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.2px;
 }
@@ -117,12 +117,12 @@ flex-direction: column
     font-size: 18px;
     color: #364147;
 }
-.account li{
+.account a{
     font-size: 14px;
 }
 .profile-pic{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
 }
 .profile-pic img{
     max-width: 100%;

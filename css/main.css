@@ -217,8 +217,9 @@ flex-direction: column
     flex: 0 0 58.333333%;
     background-image: url('../img/vista.jpg');
     background-size: cover;
-    background-position: top-center;
+    background-position: top center;
     min-height: 400px;
+    ba
 }
 .full-banner-sidebar{
     flex: 0 0 41.666667%;

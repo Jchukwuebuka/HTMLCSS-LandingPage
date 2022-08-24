@@ -129,20 +129,20 @@ flex-direction: column
     border-radius: 100px;
 }
 .hero{
+    background-image: url(image/hero.jpg);
     height: 400px;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     text-transform: uppercase;
 }
 .hero h1{
     position: relative;
     left: -30px;
-    font-size: 63px;
-    font-weight: 700;
-    line-height: 0.9px
 }
 .hero h2{
     color: #faa541;
+}
+.hero h2, .hero h1{
     font-size: 63px;
     font-weight: 700;
     line-height: 0.9px
@@ -152,12 +152,12 @@ flex-direction: column
     font-size: 21px;
     font-weight: 700;
     letter-spacing: 2px;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px;
 }
 .banner{
     margin: 55px 15px;
     width: 100%;
-    border: 1px solid #a0a0a0;
+    border-top: 1px solid #a0a0a0;
     border-bottom: 1px solid #a0a0a0;
     padding: 25px 0;
     width: 250px;

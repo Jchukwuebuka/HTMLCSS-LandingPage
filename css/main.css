@@ -209,6 +209,7 @@ flex-direction: column
     border: 1px solid #ffffff;
     top: 30px;
     bottom: 30px;
+    left: 50px;
     right: 50px;
     z-index: 1;
 }

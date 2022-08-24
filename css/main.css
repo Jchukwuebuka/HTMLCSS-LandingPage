@@ -129,7 +129,7 @@ flex-direction: column
     border-radius: 100px;
 }
 .hero{
-    background-image: url(image/hero.jpg);
+    background-image: url('../image/hero.jpg');
     height: 400px;
     background-size: cover;
     background-position: center center;
@@ -145,7 +145,7 @@ flex-direction: column
 .hero h2, .hero h1{
     font-size: 63px;
     font-weight: 700;
-    line-height: 0.9px
+    line-height: 0.9px;
 }
 .hero p{
     color: #faa541;
@@ -178,7 +178,6 @@ flex-direction: column
     margin-top: 5px;
 }
 .category{
-    display: flex;
     flex: 0 0 25%;
     padding: 0 15px;
 }
